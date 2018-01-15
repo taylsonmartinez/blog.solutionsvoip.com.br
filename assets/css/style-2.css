@@ -1,0 +1,120 @@
+body {
+    color: #fff;
+}
+
+.bg-fo-c {
+    color: #333;
+}
+
+section-icon .icon {
+    color: #f90048;
+}
+
+.home-page-hero {
+    height: 100%;
+}
+
+.header-area.header-absolute {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    width: 100%;
+}
+
+.header-s {
+    width: 100%;
+    z-index: 999;
+    position: relative;
+}
+
+.header-s::after,
+.is-sticky .logo,
+.is-sticky .menu-area a {
+    transition: .3s;
+}
+
+.is-sticky .header-s::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: #333;
+    z-index: -1;
+}
+
+.theme-color {
+    color: #f90048;
+}
+
+.btn.btn-lg {
+    background-color: #f90048;
+    color: #fff;
+    -webkit-box-shadow: inset #e60041 0px -5px 0px;
+    box-shadow: inset #e60041 0px -5px 0px;
+}
+
+.btn.btn-lg:hover {
+    background: #f90048;
+    color: #fff;
+    -webkit-box-shadow: inset #f90048 0px -60px 0px;
+    box-shadow: inset #f90048 0px -60px 0px;
+}
+
+.single-slide-item::after {
+    background: #49e5d8;
+    background: -moz-linear-gradient(left, #49e5d8 0%, #4876f0 100%);
+    background: -webkit-linear-gradient(left, #49e5d8 0%, #4876f0 100%);
+    background: linear-gradient(to right, #49e5d8 0%, #4876f0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49e5d8', endColorstr='#4876f0', GradientType=1);
+}
+
+.menu-area li a {
+    color: #fff;
+}
+
+.menu-area li a:hover {
+    color: #E60041;
+}
+
+.menu-area li>ul li>a {
+    color: #222;
+}
+
+.menu-area li:hover li:hover>a {
+    background-color: #E60041;
+    color: #fff;
+}
+
+.menu-area li.mega-menu,
+.menu-area li.mega-menu ul li a {
+    color: #222;
+}
+
+.about-theme-2 .icon {
+    font-size: 30px;
+    color: #f90048;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.subscribe-area.theme-2 {
+    background-color: #72c02c;
+    padding: 40px 0;
+}
+
+.testimonial-carousel .owl-controls .owl-nav .owl-prev {
+    right: 303px;
+}
+
+.img--g {
+    margin-top: -37px;
+}
+
+.parallax-bg {
+    background-image: url('../img/bg/cta-bg.jpg');
+}
