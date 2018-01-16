@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "O Perigo do uso constante do ar condicionado"
-date:   2018-01-15 12:25:58
+date:   2018-01-14 12:25:58
 categories: dicas
 autor: SolutionsVOIP
 image: '/assets/img/blog-bg/1.jpg'

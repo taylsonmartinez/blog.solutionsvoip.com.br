@@ -1,19 +1,90 @@
 ---
 layout: default
 ---
-<div class="section-padding pdt-0 bg-fo-c">
-	<div class="post">
-
-	  <header class="post-header">
-	    <h1 class="post-title">{{ page.title }}</h1>
-	    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-	  </header>
-
-	  <article class="post-content">
-	    {{ content }}
-	  </article>
-
-	</div>
-
-
-</div>
+    <div class="section-padding pdb-0">
+        <div class="container">
+            <div class="row">
+                <div class="blog-article-container clearfix col-md-8">
+                    <!-- BLOG ARTICLE -->
+                    <article class="blog-article blog-article-single">
+                        <div class="blog-article-img">
+                            <img src="{{page.image}}" alt="">
+                        </div>
+                        <div class="blog-article-content">
+                            <!-- BLOG ARTICLE HEADER -->
+                            <div class="blog-article-header media">
+                                <span class="blog-article-media-type cl">
+                                <i class="icon ti-paint-bucket"></i>
+                            </span>
+                                <div class="bd">
+                                    <h3 class="blog-article-title">{{page.title}}</h3>
+                                    <div class="blog-article-info">
+                                        <span class="blog-article-date">
+                                        Postado: 
+                                        <a href="#">{{ page.date | date: "%b %-d, %Y" }}</a>
+                                    </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- BLOG ARTICLE HEADER -->
+                            {{content}}
+                            <!-- BLOG ARTICLE FOOTER -->
+                            <div class="blog-article-footer">
+                                <div class="blog-article-tags">
+                                    <h5 class="blog-article-tags-title">Tags :</h5>
+                                    <ul>
+                                    	{% for tag in page.tags %}
+	        							<li><a href="/tags/#{{tag}}">{{ tag }}</a></li>
+	    								{% endfor %}
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- BLOG ARTICLE FOOTER -->
+                        </div>
+                    </article>
+                    <!-- BLOG CONTROL -->
+<!--                     <div class="blog-articles-control ">
+                        <span class="ctrl-article-prev">
+                        <a href="#">&leftarrow; Previous Article</a>
+                    </span>
+                        <span class="ctrl-article-next ">
+                        <a href="#">Next Article &rightarrow; </a>
+                    </span>
+                    </div> -->
+                    {% include share.html %}
+                    <!-- AUTHOR INFO -->
+                    <div class="blog-author-info">
+                        <div class="author-info-avatar">
+                            <img class="img-responsive" src="/img/team/team-1.jpg" alt="">
+                        </div>
+                        <div class="author-info-content">
+                            <h3 class="author-name">Solutions VOIP</h3>
+                            <span class="author-function">CEO</span>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- AUTHOR INFO -->
+                    <!-- COMMENTS -->
+                    <div class="blog-article-comments">
+                        {% include disqus.html %}
+                    </div>
+                    <!-- COMMENTS -->
+                </div>
+                <!-- BLOG ARTICLE CONTAINER -->
+                <!-- BLOG SIDEBAR -->
+                <div class="col-md-4">
+                    <div class="blog-sidebar">
+                        <!-- Sidebar widgets -->
+                        <ul class="sidebar-widgets">
+                           
+                            
+                            
+                            <!-- sidebar widget -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

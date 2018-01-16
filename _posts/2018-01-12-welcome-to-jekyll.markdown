@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "O Perigo do uso constante do ar condicionado"
-date:   2018-01-15 12:25:58
+date:   2018-01-12 12:25:58
 categories: dicas
 autor: SolutionsVOIP
-image: '/assets/img/blog-bg/1.jpg'
+image: '/img/blog-bg/1.jpg'
 description: Olá pessoal, tudo bem? Hoje irei falar sobre os cuidados com a saúde e a pele com o uso do ar condicionado."
 tags:
 - Dicas
