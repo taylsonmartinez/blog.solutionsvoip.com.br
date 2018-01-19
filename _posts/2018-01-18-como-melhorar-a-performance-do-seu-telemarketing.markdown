@@ -4,7 +4,7 @@ title:  "Como melhorar a performance do seu telemarketing ativo?"
 date:   2018-01-18 12:25:58
 categories: dicas
 autor: SolutionsVOIP
-image: '/img/blog-bg/numero-de-linhas-fixas.jpg'
+image: '/img/blog-bg/blog-3.jpeg'
 description: "O telemarketing ativo continua a ser uma das formas mais eficientes de vendas."
 tags:
 - Telemarketing

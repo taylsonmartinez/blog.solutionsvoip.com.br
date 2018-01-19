@@ -4,7 +4,7 @@ title:  "Brasil teve queda de 1,1 milhão de linhas fixas de telefone, diz Anate
 date:   2018-01-12 12:25:58
 categories: dicas
 autor: SolutionsVOIP
-image: '/img/blog-bg/numero-de-linhas-fixas.jpg'
+image: '/img/blog-bg/blog-2.jpeg'
 description: Número de linhas fixas de telefone passou de 42,2 milhões em setembro de 2016 para 41,1 milhões no mesmo período deste ano, uma queda de 2,69%"
 tags:
 - Economia
