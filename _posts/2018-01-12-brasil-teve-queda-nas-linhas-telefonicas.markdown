@@ -20,11 +20,11 @@ No que diz respeito às companhias autorizadas, a TIM, com a entrada de 199.651 
 
 Já em relação às concessionárias que apresentaram crescimento no período, a liderança fica com a Algar Telecom, que teve 21.035 novas linhas (2,87%). Na sequência vem a Claro, com a adição de 177 novos números (10,79%). As demais registraram redução.
 
-###Linhas fixas
+### Linhas fixas
 Fazendo a comparação entre setembro e agosto de 2017, o País registrou redução de 117.493 linhas fixas, queda de 029%. As concessionárias apresentaram diminuição de 136.761 linhas (-0,57%) e as autorizadas aumento de 19.268 linhas fixas (+0,11%).
 Na comparação de setembro de 2017 com o mês anterior, entre as autorizadas, a Algar Telecom registrou 4.390 novas linhas (+1,41%) e todos os demais grupos apresentaram variação menor do que 1% para cima ou para baixo. Entre as concessionárias, a maior redução foi da Oi, com menos 83.164 linhas fixas (-0,61%), seguida da Vivo, com menos 53.148 linhas fixas (-0,56%).
 
-###Estados
+### Estados
 Santa Catarina foi o Estado com o maior crescimento no número de linhas das autorizadas, com 47.098 novas linhas (+6,91%) nos últimos 12 meses. A maior redução foi em São Paulo, com menos 80.995 (-1,38%). Em relação às concessionárias , todos os estados apresentaram queda no período.
 
 Comparando os meses de agosto e setembro, Minas Gerais registrou o maior crescimento das autorizadas no país, com mais 4.797 linhas (+0,35%), e o Rio de Janeiro a maior queda, com menos 4.439 linhas fixas (-0,21%). Em relação às concessionárias, o Acre com mais 79 linhas (+0,13%) foi o único Estado que apresentou variação positiva, informou a Anatel.
